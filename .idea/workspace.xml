@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5934d7b6-f2b7-411a-b9ab-98ce9cd5f98d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adafruit_PN532/PN532.py" afterPath="$PROJECT_DIR$/Adafruit_PN532/PN532.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nfctool.py" afterPath="$PROJECT_DIR$/nfctool.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,24 +17,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nfctool.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nfctool.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nfctool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="53" column="65" lean-forward="false" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            <state relative-caret-position="672">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PN532.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Adafruit_PN532/PN532.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="370" column="56" lean-forward="false" selection-start-line="370" selection-start-column="56" selection-end-line="370" selection-end-column="56" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -45,6 +34,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>19</find>
+      <find>191</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,8 +44,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/nfctool.py" />
         <option value="$PROJECT_DIR$/Adafruit_PN532/PN532.py" />
+        <option value="$PROJECT_DIR$/nfctool.py" />
       </list>
     </option>
   </component>
@@ -424,21 +414,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nfctool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="53" column="65" lean-forward="false" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Adafruit_PN532/PN532.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
           <caret line="370" column="56" lean-forward="false" selection-start-line="370" selection-start-column="56" selection-end-line="370" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfctool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

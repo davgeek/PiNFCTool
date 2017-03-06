@@ -49,15 +49,20 @@ if option == 1:
             continue
         # Found a card, now try to read block 4 to detect the block type.
         print('Found card with UID 0x{0}'.format(binascii.hexlify(uid)))
-        # Read all blocks
-        for x in range(4, 64):
-            if not pn532.mifare_classic_authenticate_block(uid, x, PN532.MIFARE_CMD_AUTH_B, CARD_KEY):
-                print('Failed to authenticate with card!')
-                continue
-            data = pn532.mifare_classic_read_block(x)
-            if data is None:
-                print('Failed to read data from card!')
-                continue
+        # Read block
+        blockNumInput = input('Block number: ')
+        try:
+            blockNum = int(blockNumInput)
+        except ValueError:
+            print('Error! Unreconized block number')
+
+        if not pn532.mifare_classic_authenticate_block(uid, blockNum, PN532.MIFARE_CMD_AUTH_B, CARD_KEY):
+            print('Failed to authenticate with card!')
+            continue
+        data = pn532.mifare_classic_read_block(x)
+        if data is None:
+            print('Failed to read data from card!')
+            continue
         print('Data: ')
         print data
 
