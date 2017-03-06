@@ -368,7 +368,7 @@ class PN532(object):
         # Send passive read command for 1 card.  Expect at most a 7 byte UUID.
         response = self.call_function(PN532_COMMAND_INLISTPASSIVETARGET,
                                       params=[0x01, card_baud],
-                                      response_length=19)
+                                      response_length=17)
         # If no response is available return None to indicate no card is present.
         if response is None:
             return None
